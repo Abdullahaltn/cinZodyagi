@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("lütfen doğrum tarihinizi 4 haneli rakam olucak şekilde giriniz.");
+   int kullanicidogumtarihi;
+        Scanner girdi = new Scanner(System.in);
+        kullanicidogumtarihi = girdi.nextInt();
+
+
+        if (kullanicidogumtarihi%12==0){
+
+            System.out.println("Çin Zodyağı Burcunuz : Maymun");
+
+        } else if (kullanicidogumtarihi%12==1) {
+
+            System.out.println("Çin Zodyağı Burcunuz :Horoz ");
+
+        } else if (kullanicidogumtarihi%12==2) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Köpek");
+
+        }else if (kullanicidogumtarihi%12==3) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Domuz");
+
+        }else if (kullanicidogumtarihi%12==4) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Fare");
+
+        }else if (kullanicidogumtarihi%12==5) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Öküz");
+
+        }else if (kullanicidogumtarihi%12==6) {
+
+            System.out.println("Çin Zodyağı Burcunuz : kaplan");
+
+        }else if (kullanicidogumtarihi%12==7) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Tavşan");
+
+        }else if (kullanicidogumtarihi%12==8) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Ejderha");
+
+        }else if (kullanicidogumtarihi%12==9) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Yılan");
+
+        }else if (kullanicidogumtarihi%12==10) {
+
+            System.out.println("Çin Zodyağı Burcunuz : At");
+
+        }else if (kullanicidogumtarihi%12==11) {
+
+            System.out.println("Çin Zodyağı Burcunuz : Koyun");
+
+        }
+
+
+    }
+
+
+
+}
